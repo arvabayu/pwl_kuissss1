@@ -21,3 +21,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get("/pelanggan",[PelangganController::class, 'index']);
 Route::get("/barang",[BarangController::class, 'index']);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
