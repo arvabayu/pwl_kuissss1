@@ -10,6 +10,8 @@
                 <ul>
                     <li><a class="nav-link scrollto " href="/barang">Barang</a></li>
                     <li><a class="nav-link scrollto" href="/pelanggan">Pelanggan</a></li>
+                    <li><a class="nav-link scrollto" href="/pegawai">Pegawai</a></li>
+                    <li><a class="nav-link scrollto" href="/supplier">Supplier</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->

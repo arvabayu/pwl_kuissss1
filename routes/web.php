@@ -2,6 +2,8 @@
 
 use App\Http\Controllers\BarangController;
 use App\Http\Controllers\PelangganController;
+use App\Http\Controllers\PegawaiController;
+use App\Http\Controllers\SupplierController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -22,6 +24,8 @@ use Illuminate\Support\Facades\Route;
 Route::get("/pelanggan",[PelangganController::class, 'index']);
 Route::get("/barang",[BarangController::class, 'index']);
 
-Auth::routes();
+
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get("/pegawai",[PegawaiController::class, 'index']);
+Route::get("/supplier",[SupplierController::class, 'index']);
